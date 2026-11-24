@@ -1,0 +1,70 @@
+mrcaspan-flarum2-email-editor:
+  admin:
+    intro: Change the wording of every email the forum sends, and how the emails look. Emails added by extensions you install later appear here automatically.
+    tab_emails: Emails
+    tab_layout: Layout
+    language_label: Language
+    core_title: Flarum core
+    general_texts: General texts
+    search_placeholder: Search emails…
+    no_matches: No emails match your search.
+    pick_one: Pick an email on the left to edit it.
+    edited_badge: Edited
+    field_subject: Subject
+    field_html: Body (HTML email)
+    field_plain: Body (plain-text email)
+    field_body: Body
+    placeholders_label: "Placeholders:"
+    insert_placeholder: Insert at the cursor
+    show_original: Show original
+    hide_original: Hide original
+    use_original: Use original
+    empty_text: (empty)
+    original_unknown: The original wording of this text can't be shown on this version of Flarum.
+    save_button: Save
+    undo_button: Undo changes
+    preview_button: Preview
+    send_test_button: Send test to me
+    reset_all_button: Reset this email to original
+    reset_all_confirm: Put every text in this email back to the original wording?
+    discard_confirm: You have unsaved changes. Discard them?
+    saved: Saved.
+    save_failed: Couldn't save. Check the texts and try again.
+    test_sent: "Test email sent to {email}."
+    preview_tab_html: HTML
+    preview_tab_text: Plain text
+    preview_help_notification: Preview and test use sample values for the placeholders, in Flarum's standard notification email. Unsaved changes are included. Greeting, sign-off and footers show their saved wording.
+    preview_help_information: Preview and test use sample values for the placeholders, in Flarum's standard account email. Unsaved changes are included. Greeting, sign-off and footers show their saved wording.
+
+    # Server-side messages
+    error_bad_request: The request was not understood.
+    error_unknown_key: This isn't an email text.
+    error_bad_placeholder: "This text has a broken placeholder, such as a { without a matching }. Fix it before saving, or emails using it would fail to send."
+    test_subject_prefix: "[Test]"
+    sample_subject: Sample email
+    sample_body: This is a sample email body, so you can see the layout.
+    sample_title: Friday night tournament
+    sample_content: This is some sample post content.
+    sample_user: SampleUser
+
+    layout:
+      custom_layout: Use the custom layout
+      custom_layout_help: When this is off, emails use Flarum's standard layout and the options below do nothing.
+      show_title: Show the email title under the logo
+      show_greeting: Show the greeting ("Hey name,")
+      show_signoff: Show the sign-off ("The forum team")
+      wording_help: To change the wording of the greeting, sign-off or footers, edit them under Emails → Flarum core.
+      logo_align: Logo position
+      align_left: Left
+      align_center: Centre
+      colors: Colours
+      color_bg: Page background
+      color_card: Email background
+      color_border: Border
+      color_text: Text
+      color_accent: Links and title
+      color_none: Default
+      color_clear: Clear
+      footer_text: Extra footer text
+      footer_text_help: Added under the normal footer of every email. Markdown works. Leave empty for none.
+      preview_help: Preview and test show a sample notification email with these options, saved or not.

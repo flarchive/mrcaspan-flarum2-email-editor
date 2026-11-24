@@ -1,0 +1,45 @@
+{
+  "name": "mrcaspan/flarum2-email-editor",
+  "description": "Edit the subject and wording of every email your Flarum 2.0 forum sends, and style the email layout, from the admin panel. Emails added by extensions you install later show up automatically.",
+  "keywords": [
+    "flarum",
+    "flarum2",
+    "extension",
+    "mail",
+    "email",
+    "email templates",
+    "notifications",
+    "translations"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MrCaspan",
+      "homepage": "https://github.com/MrCaspan"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/MrCaspan/flarum2-email-editor/issues",
+    "source": "https://github.com/MrCaspan/flarum2-email-editor"
+  },
+  "require": {
+    "flarum/core": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "MrCaspan\\EmailEditor\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Email Editor",
+      "category": "feature",
+      "icon": {
+        "name": "fas fa-envelope-open-text",
+        "backgroundColor": "#D80621",
+        "color": "#fff"
+      }
+    }
+  }
+}
